@@ -12,28 +12,35 @@ const Portfolio = () => {
     {
       id: 1,
       src: Amazon,
+      link: "https://syedalihassannaqvi.github.io/Amazon-Clone/",
     },
     {
       id: 2,
       src: Passgen,
+      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
     },
     {
       id: 3,
       src: ReactRouter,
+      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
     },
     {
       id: 4,
       src: Currency,
+      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
     },
     {
       id: 5,
       src: Tictactoe,
+      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
     },
     {
       id: 6,
       src: Rps,
+      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
     },
   ];
+
   return (
     <div
       name="portfolio"
@@ -47,7 +54,7 @@ const Portfolio = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, link }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -55,7 +62,10 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                <button
+                  onClick={() => window.open(link, "_blank")}
+                  className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                >
                   Demo
                 </button>
                 <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
