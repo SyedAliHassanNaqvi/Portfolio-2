@@ -22,7 +22,7 @@ const Portfolio = () => {
     {
       id: 3,
       src: ReactRouter,
-      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
+      link: "https://syedalihassannaqvi.github.io/reactRouter/",
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const Portfolio = () => {
     {
       id: 6,
       src: Rps,
-      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
+      link: "https://syedalihassannaqvi.github.io/rock-paper-scissors/",
     },
   ];
 
