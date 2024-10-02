@@ -24,10 +24,10 @@ const About = () => {
         <br />
 
         <p className="text-xl">
-          T With React and tools such as React Router, along with API
-          integration, I’ve built optimized and dynamic applications. Some of my
-          projects include a password generator, a sample website, and a
-          currency converter that utilizes live API data.
+          With React and tools such as React Router, along with API integration,
+          I’ve built optimized and dynamic applications. Some of my projects
+          include a password generator, a sample website, and a currency
+          converter that utilizes live API data.
         </p>
       </div>
     </div>
