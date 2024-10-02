@@ -17,7 +17,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: Passgen,
-      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
+      link: "https://syedalihassannaqvi.github.io/passgen/",
     },
     {
       id: 3,
@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: Currency,
-      link: "https://syedalihassannaqvi.github.io/Tic-Tac-Toe-Game/",
+      link: "https://syedalihassannaqvi.github.io/currencyconverter/",
     },
     {
       id: 5,
