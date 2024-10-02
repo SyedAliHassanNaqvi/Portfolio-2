@@ -27,7 +27,7 @@ const Portfolio = () => {
     {
       id: 4,
       src: Currency,
-      link: "hhttps://syedalihassannaqvi.github.io/currencyconverter/",
+      link: "https://syedalihassannaqvi.github.io/currencyconverter/",
     },
     {
       id: 5,
