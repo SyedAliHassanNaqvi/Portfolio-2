@@ -13,23 +13,21 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-16">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam, x``
-          animi est quis libero perspiciatis qui reiciendis sit labore eos vitae
-          odio maiores perferendis necessitatibus voluptatem optio dolor in
-          repellat a amet temporibus voluptatum ratione! Ab laudantium numquam
-          impedit et eos asperiores inventore velit aspernatur culpa sint.
-          Impedit commodi distinctio saepe?
+          I am a passionate web developer with a solid foundation in HTML, CSS,
+          and JavaScript. Initially, I built projects like Tic-Tac-Toe,
+          Rock-Paper-Scissors, and an Amazon clone to strengthen my skills. As I
+          advanced, I expanded my expertise by learning frameworks like Tailwind
+          CSS and libraries like React JS, which allowed me to take my projects
+          to the next level.
         </p>
 
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nihil
-          inventore placeat amet nesciunt. Sed quo, quibusdam adipisci impedit
-          ad voluptates voluptatem, eum, veniam maiores est velit. Explicabo
-          quaerat aspernatur debitis corporis! Blanditiis nisi, praesentium
-          nesciunt minima, qui vitae quo esse vero in velit sit saepe quae
-          dolorem doloremque eveniet.
+          T With React and tools such as React Router, along with API
+          integration, I’ve built optimized and dynamic applications. Some of my
+          projects include a password generator, a sample website, and a
+          currency converter that utilizes live API data.
         </p>
       </div>
     </div>
