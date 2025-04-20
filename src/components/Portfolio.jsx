@@ -6,13 +6,15 @@ import Rps from "../assets/portfolio/rockpaperscissors.png";
 import Tictactoe from "../assets/portfolio/tictactoe.png";
 import Currency from "../assets/portfolio/currencyexchange.png";
 import Amazon from "../assets/portfolio/amazon.png";
+import tours from "../assets/portfolio/syedtourshome.png";
+import tube from "../assets/portfolio/homepage.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: Amazon,
-      link: "https://syedalihassannaqvi.github.io/Amazon-Clone/",
+      src: tours,
+      link: "https://syed-tours.netlify.app/",
     },
     {
       id: 2,
@@ -21,8 +23,8 @@ const Portfolio = () => {
     },
     {
       id: 3,
-      src: ReactRouter,
-      link: "https://syedalihassannaqvi.github.io/reactRouter/",
+      src: Amazon,
+      link: "https://syedalihassannaqvi.github.io/Amazon-Clone/",
     },
     {
       id: 4,
